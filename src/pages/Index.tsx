@@ -127,7 +127,7 @@ const Index = () => {
                       <img
                         src={gift.image}
                         alt={gift.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 px-0 mx-0"
                       />
                     </div>
                     <CardTitle className="text-lg">{gift.name}</CardTitle>
